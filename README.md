@@ -1,5 +1,5 @@
 # SimplePrayerTimes
-Development of Android app that uses the <a href="https://aladhan.com/prayer-times-api" target="_blank">Prayer Times API</a> to display Muslim Prayer Times.
+Development of Android app that uses the <a href="https://aladhan.com/prayer-times-api" target=_blank>Prayer Times API</a> to display Muslim Prayer Times.
 
 Screenshot:
 
