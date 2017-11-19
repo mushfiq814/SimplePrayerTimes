@@ -16,9 +16,9 @@
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-
+            android:layout_weight="2"
             android:background="@color/colorPrimary600"
+
             android:fontFamily="@font/libre_baskerville"
             android:padding="50sp"
             android:text="@string/date"
@@ -27,10 +27,11 @@
             android:textStyle="bold" />
 
         <ScrollView
+            android:id="@+id/sv_times"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:layout_gravity="bottom">
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -41,18 +42,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@color/colorPrimary600"
                     android:orientation="horizontal"
-                    android:textAlignment="center"
-                    android:background="@color/colorPrimary600">
+                    android:textAlignment="center">
 
                     <TextView
-                        android:text="@string/fajr"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/fajr" />
 
                     <TextView
                         android:id="@+id/fajr_time"
-                        android:text="@string/dummy_time"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/dummy_time" />
 
                 </LinearLayout>
 
@@ -60,18 +61,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@color/colorPrimary500"
                     android:orientation="horizontal"
-                    android:textAlignment="center"
-                    android:background="@color/colorPrimary500">
+                    android:textAlignment="center">
 
                     <TextView
-                        android:text="@string/zuhr"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/zuhr" />
 
                     <TextView
                         android:id="@+id/zuhr_time"
-                        android:text="@string/dummy_time"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/dummy_time" />
 
                 </LinearLayout>
 
@@ -79,18 +80,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@color/colorPrimary400"
                     android:orientation="horizontal"
-                    android:textAlignment="center"
-                    android:background="@color/colorPrimary400">
+                    android:textAlignment="center">
 
                     <TextView
-                        android:text="@string/asr"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/asr" />
 
                     <TextView
                         android:id="@+id/asr_time"
-                        android:text="@string/dummy_time"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/dummy_time" />
 
                 </LinearLayout>
 
@@ -98,18 +99,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="@color/colorPrimary300"
                     android:orientation="horizontal"
-                    android:textAlignment="center"
-                    android:background="@color/colorPrimary300">
+                    android:textAlignment="center">
 
                     <TextView
-                        android:text="@string/maghrib"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/maghrib" />
 
                     <TextView
                         android:id="@+id/maghrib_time"
-                        android:text="@string/dummy_time"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/dummy_time" />
 
                 </LinearLayout>
 
@@ -117,18 +118,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
+                    android:background="@color/colorPrimary200"
                     android:orientation="horizontal"
-                    android:textAlignment="center"
-                    android:background="@color/colorPrimary200">
+                    android:textAlignment="center">
 
                     <TextView
-                        android:text="@string/isha"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/isha" />
 
                     <TextView
                         android:id="@+id/isha_time"
-                        android:text="@string/dummy_time"
-                        style="@style/prayerTimesandText"/>
+                        style="@style/prayerTimesandText"
+                        android:text="@string/dummy_time" />
 
                 </LinearLayout>
 
