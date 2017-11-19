@@ -3,4 +3,4 @@ Development of Android app that uses the <a href="https://aladhan.com/prayer-tim
 
 Screenshot:
 
-<img src="https://raw.githubusercontent.com/mushfiq814/SimplePrayerTimes/master/Screenshots/Screen1.png" alt="Screenshot" width="400">
+<img src="https://raw.githubusercontent.com/mushfiq814/SimplePrayerTimes/master/Screenshots/ScreenCurrent.png" alt="Screenshot" width="400">
