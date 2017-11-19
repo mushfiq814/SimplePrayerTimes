@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SimplePrayerTimes</string>
     <string name="fajr">Fajr</string>
-    <string name="zuhr">Zuhr</string>
+    <string name="zuhr">Dhuhr</string>
     <string name="asr">Asr</string>
     <string name="maghrib">Maghrib</string>
     <string name="isha">Isha</string>

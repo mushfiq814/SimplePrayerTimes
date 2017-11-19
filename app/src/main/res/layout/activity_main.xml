@@ -8,7 +8,6 @@
     tools:context="com.mushfiqmahmud.simpleprayertimes.MainActivity">
 
     <LinearLayout
-        android:background="#000"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -16,16 +15,22 @@
         <TextView
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/colorPrimary600"
+            android:fontFamily="@font/libre_baskerville"
             android:padding="50sp"
             android:text="@string/date"
-            android:textAlignment="viewStart"
-            android:textSize="50sp"
-            android:textStyle="bold"/>
+            android:textColor="#FFF"
+            android:textSize="70sp"
+            android:textStyle="bold" />
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_gravity="bottom">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,135 +40,95 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimary600">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/fajr"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                     <TextView
                         android:id="@+id/fajr_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/dummy_time"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimary500">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/zuhr"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                     <TextView
                         android:id="@+id/zuhr_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/dummy_time"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimary400">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/asr"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                     <TextView
                         android:id="@+id/asr_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/dummy_time"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimary300">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/maghrib"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                     <TextView
                         android:id="@+id/maghrib_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/dummy_time"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0"
                     android:orientation="horizontal"
-                    android:textAlignment="center">
+                    android:textAlignment="center"
+                    android:background="@color/colorPrimary200">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/isha"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                     <TextView
                         android:id="@+id/isha_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="@string/dummy_time"
-                        android:padding="10sp"
-                        android:textAlignment="center"
-                        android:textSize="25sp"/>
+                        style="@style/prayerTimesandText"/>
 
                 </LinearLayout>
 
